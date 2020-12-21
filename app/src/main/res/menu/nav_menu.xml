@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/quiz"
+        android:title="Quiz"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        ></item>
+
+    <item android:id="@+id/calculator"
+        android:title="My Calculator"
+        android:icon="@android:drawable/ic_dialog_dialer"
+        ></item>
+
+</menu>

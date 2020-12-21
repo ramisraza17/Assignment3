@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.assign2">
+    package="com.example.Assignment3">
 
     <application
         android:allowBackup="true"
@@ -9,18 +9,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity12"></activity>
-        <activity android:name=".MainActivity11" />
-        <activity android:name=".MainActivity10" />
-        <activity android:name=".MainActivity9" />
-        <activity android:name=".MainActivity8" />
-        <activity android:name=".MainActivity7" />
-        <activity android:name=".MainActivity6" />
-        <activity android:name=".MainActivity5" />
-        <activity android:name=".MainActivity4" />
-        <activity android:name=".MainActivity3" />
-        <activity android:name=".MainActivity2" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.example.Assignment3.calculator">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity android:name="com.example.Assignment3.MainActivity" />
+        <activity android:name="com.example.Assignment3.MainActivity12" />
+        <activity android:name="com.example.Assignment3.MainActivity11" />
+        <activity android:name="com.example.Assignment3.MainActivity10" />
+        <activity android:name="com.example.Assignment3.MainActivity9" />
+        <activity android:name="com.example.Assignment3.MainActivity8" />
+        <activity android:name="com.example.Assignment3.MainActivity7" />
+        <activity android:name="com.example.Assignment3.MainActivity6" />
+        <activity android:name="com.example.Assignment3.MainActivity5" />
+        <activity android:name="com.example.Assignment3.MainActivity4" />
+        <activity android:name="com.example.Assignment3.MainActivity3" />
+        <activity android:name="com.example.Assignment3.MainActivity2" />
+        <activity android:name="com.example.Assignment3.NavDrawer">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

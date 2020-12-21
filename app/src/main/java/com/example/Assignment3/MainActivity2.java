@@ -1,4 +1,4 @@
-package com.example.assign2;
+package com.example.Assignment3;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,18 +8,19 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.RadioGroup;
 
-public class MainActivity5 extends AppCompatActivity {
+public class MainActivity2 extends AppCompatActivity {
 
-    Button button;
+
     RadioGroup radioGroup;
+    Button button;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main5);
+        setContentView(R.layout.activity_main2);
 
-        button = findViewById(R.id.button5);
-        radioGroup = findViewById(R.id.radioGroup3);
+        button = findViewById(R.id.button2);
+        radioGroup = findViewById(R.id.radioGroup);
         final Intent i = getIntent();
 
         button.setOnClickListener(new View.OnClickListener() {
@@ -33,8 +34,8 @@ public class MainActivity5 extends AppCompatActivity {
                 }
                 else
                 {
-                    Intent i1 = new Intent(MainActivity5.this, MainActivity6.class);
-                    if(id == R.id.radioButton14)
+                    Intent i1 = new Intent(MainActivity2.this, MainActivity3.class);
+                    if(id == R.id.radioButton1)
                     {
                         int count = i.getIntExtra("count", 0);
                         count++;
